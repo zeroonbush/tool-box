@@ -1,0 +1,28 @@
+/*
+* @Author: Ez Lou
+* @Date:   2020-08-12 14:22:03
+* @Last Modified by:   louhaisheng
+* @Last Modified time: 2020-08-12 14:35:00
+*/
+// 首页
+.home {
+  width: 960px;
+  margin: 50px auto;
+  // background-color: #FFEFD5;
+  h2 {
+    margin: 50px 0;
+  }
+  &-nav {
+    li {
+      margin: 5px 0;
+    }
+  }
+  &-link {
+    cursor: pointer;
+    margin-bottom: 10px;
+    &:hover {
+      background-color: #FF4500;
+      color: #fff;
+    }
+  }
+}

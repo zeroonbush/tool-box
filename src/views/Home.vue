@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h2>快速导航</h2>
+    <ul class="home-nav">
+      <li v-for="(item,index) in items">
+         <router-link :to="item.link" tag="a" class="home-link">{{item.label}}</router-link> 
+      </li>
+    </ul>
+    
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+
+const items = [
+  { link:'/qrcode', label:'生成二维码' },
+  { link:'/radix-convert', label:'进制转换' },
+]
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      items
+    }
   }
+
 }
 </script>

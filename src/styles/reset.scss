@@ -1,0 +1,28 @@
+/*
+* @Author: Ez Lou (ezlou@bitasset.com)
+* @Date:   2020-08-12 14:23:46
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+ul,li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+body {
+  font-family: sans-serif;
+}
