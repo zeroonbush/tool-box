@@ -16,6 +16,7 @@
 const items = [
   { link:'/qrcode', label:'生成二维码' },
   { link:'/radix-convert', label:'进制转换' },
+  { link:'/json-beautiful', label:'JSON格式化' },
 ]
 
 export default {

@@ -19,6 +19,11 @@ Vue.use(VueRouter)
     path: '/radix-convert',
     name: 'RadixConvert',
     component: () => import(/* webpackChunkName: "about" */ '../views/radix-convert.vue')
+  },
+  {
+    path: '/json-beautiful',
+    name: 'JsonBeautiful',
+    component: () => import(/* webpackChunkName: "about" */ '../views/json-beautiful.vue')
   }
 ]
 
