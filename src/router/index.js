@@ -13,17 +13,27 @@ Vue.use(VueRouter)
   {
     path: '/qrcode',
     name: 'Qrcode',
-    component: () => import(/* webpackChunkName: "about" */ '../views/qrcode.vue')
+    component: () => import('../views/qrcode.vue')
   },
   {
     path: '/radix-convert',
     name: 'RadixConvert',
-    component: () => import(/* webpackChunkName: "about" */ '../views/radix-convert.vue')
+    component: () => import('../views/radix-convert.vue')
   },
   {
     path: '/json-beautiful',
     name: 'JsonBeautiful',
-    component: () => import(/* webpackChunkName: "about" */ '../views/json-beautiful.vue')
+    component: () => import('../views/json-beautiful.vue')
+  },
+  {
+    path: '/color-picker',
+    name: 'ColorPicker',
+    component: () => import('../views/color-picker/index.vue')
+  },
+  {
+    path: '/code-img',
+    name: 'CodeImg',
+    component: () => import('../views/code-img/index.vue')
   }
 ]
 

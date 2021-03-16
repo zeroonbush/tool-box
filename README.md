@@ -42,3 +42,13 @@ yarn commit
 JSON格式化
 
 在线地址: [https://zeroonbush.github.io/tool-box/#/json-beautiful](https://zeroonbush.github.io/tool-box/#/json-beautiful)
+
+### 颜色选择器
+选取各种颜色,RGB与16进制转换
+
+在线地址: [https://zeroonbush.github.io/tool-box/#/color-picker](https://zeroonbush.github.io/tool-box/#/color-picker)
+
+### 生成代码截图
+生成代码截图,用于写文档时展示代码
+
+在线地址: [https://zeroonbush.github.io/tool-box/#/code-img](https://zeroonbush.github.io/tool-box/#/code-img)
