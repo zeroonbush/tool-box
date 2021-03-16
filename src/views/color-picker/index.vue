@@ -2,7 +2,7 @@
   <div class="colorPicker" :style="{backgroundColor:'#' + this.currentColor}">
     <h2 class="colorPicker-title">颜色选择器</h2>
     <div class="colorPicker-cont">
-      <div class="container">
+      <div class="colorPicker-container">
         <div>
           <h4>如何使用本页面:</h4>
           <p>请点击色块(会出现鼠标小手)选择颜色即可,颜色色值即已复制</p>
@@ -26,7 +26,7 @@
         <p>当前色值模式: <span style="color:red;">{{modeMap.get(mode)}}</span></p>
       </div>
       
-      <div class="container">
+      <div class="colorPicker-container">
         <div>RGB表示法转换成十六进制表示法:</div>
         <div class="content">
           <div>
@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class="container">
+      <div class="colorPicker-container">
         <div>十六进制表示法转换成RGB表示法:</div>
         <div class="content">
           <div>
@@ -62,7 +62,7 @@
         </div>
       </div>
         
-      <div class="container">
+      <div class="colorPicker-container">
         <div class="current">
           当前选中颜色:
           <span class="current-color"  @click="picker($event)" :data-color="this.currentColor" :style="{backgroundColor:'#'+currentColor}"></span>
@@ -70,7 +70,7 @@
         <span class="block" v-for="item of colorList" :key="item.color" @click="picker($event)" :data-color="item.color" :style="{backgroundColor:'#'+item.color}"></span>
       </div>
 
-      <div class="container">
+      <div class="colorPicker-container">
         <div>常用颜色色值:</div>
         <div class="common">
           <div class="common-item" v-for="item in COMMON_COLOR" :key="item.color" @click="picker($event)" :data-color="item.color" :style="{backgroundColor:'#'+item.color}">{{item.label}}</div>

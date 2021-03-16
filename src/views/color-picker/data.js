@@ -13,7 +13,6 @@ module.exports = {
       { name: 'plum', color: 'DDA0DD' },
       { name: 'Violet', color: 'EE82EE' },
       { name: 'Magenta', color: 'FF00FF' },
-      { name: 'Fuchsia', color: 'FF00FF' },
       { name: 'DarkMagenta', color: '8B008B' },
       { name: 'Purple', color: '800080' },
       { name: 'MediumOrchid', color: 'BA55D3' },
