@@ -19,6 +19,7 @@ const items = [
   { id:3, link:'/json-beautiful', label:'JSON格式化' },
   { id:4, link:'/color-picker', label:'颜色选择器' },
   { id:5, link:'/code-img', label:'生成代码截图' },
+  { id:6, link:'/base64-to-img', label:'base64转图片' },
   
 ]
 
